@@ -1,0 +1,595 @@
+@font-face {
+	font-family: 'Avenir';
+	src: url('./fonts/Avenir 65 Medium.eot');
+	src: local('☺'), url('./fonts/Avenir 65 Medium.woff') format('woff'), url('fonts/Avenir 65 Medium.ttf') format('truetype'), url('fonts/Avenir 65 Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    padding: 25px 15vw;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
+
+button {
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid rgb(0, 0, 115);
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+} */ 
+
+.arrow-image {
+    width: 20px;
+}
+
+#header {
+    box-sizing: border-box;
+    width: 70vw;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: baseline;
+}
+
+.header-purple-logo {
+    height: 20px;
+    width: 20px;
+    background-color: #9C69E2;
+    border-radius: 50%;
+}
+
+.header-pink-logo {
+    height: 35px;
+    width: 20px;
+    background-color: #F063B8;
+    border-radius: 20px;
+    margin-left: 0.9vw;
+    margin-right: 7.6vw;
+}
+
+.header-nav a {
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+.header-link-about {
+    font-weight: 600;
+}
+
+.header-button {
+    /* background-image: url(./Images/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 20px; */
+    width: 210px;
+    height: 60px;
+    display: flex;
+    /* background-position: 100px 20px; */
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    margin-left: auto;
+    box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.1);
+    background: rgba(255, 255, 255, 1);
+
+
+}
+
+h1 {
+    width: 40.3vw;
+    font-family: Helvetica;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+    margin: 147px 0 50px 0;
+
+
+}
+
+#main {
+    position: relative;
+}
+#main p {
+    font-family: Avenir;
+font-size: 18px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+width: 23.75vw;
+}
+
+#main img {
+    width: 55.3vw;
+    float: right;
+    position: absolute;
+    right: -9vw;
+    top: 110px;
+    max-width: 885px;
+}
+
+#main button {
+    width: 170px;
+    height: 60px;
+    background-color:  #9C69E2;
+    margin-top: 50px;
+    color: white;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#description {
+    height: 560px;
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    padding: 31.82px 93px 24px 11px;
+    /* position: relative; */
+    margin-top: 215px;
+    display: flex;
+}
+
+#description img {
+    /* position: absolute;
+    top: 100px;
+    float: left; */
+    flex-basis: 46%;
+    margin-right: 4%;
+    flex-shrink: 1;
+    
+    
+
+}
+
+.description-text {
+    flex-basis: 50%;
+}
+
+
+
+#description h2 {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    margin: 95px 0 40px 0;
+    width: 28.7vw;
+    
+    height: 100px;
+    
+
+}
+
+#description p {
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+}
+
+
+#features h2 {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 150px 0 50px 0;
+}
+
+.features-main-p{
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 150px;
+    }
+
+    #features h3 {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -15px;
+    } 
+
+    .feature-box p {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 20px 0 20px 0;
+    }
+
+
+    .feature-box button {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    display: flex;
+    border: none;
+    background-color: white;
+    width: 150px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:-15px;
+    margin-bottom: 132px;
+}
+
+
+.btn-bottom-left {
+    margin-top: 72px;
+}
+
+.feature-box-img {
+    width: 15vw;
+    height: 12.5vw;
+    }
+
+
+.feature-box-text {
+    width: 15vw;
+    box-sizing: border-box;
+    margin-left: 20px;
+
+    }
+
+.feature-box {
+    display: flex;
+    flex-basis: 35vw;
+}
+
+.features-wrapper {
+    display: flex;
+}
+
+#testimonials {
+    height: 709px;
+    background-color: rgba(156, 105, 226, 1);
+    border-radius: 50px;
+    position: relative;
+    padding: 6.8vw 4.75vw 3.88vw 5.81vw;
+    
+}
+
+#testimonials h2 {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-bottom: 88px;
+
+}
+
+.review {
+    height: 330px;
+    width: 59.3vw;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(31, 12, 56, 0.3);
+    border-radius: 20px;
+    padding: 60px 103px 50px;
+    box-sizing: border-box;
+
+}
+
+.dots {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 5.81vw;
+    bottom: 3.88vw ;
+}
+.dot {
+    border-radius: 5px;
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.big {
+    background-color: rgba(240, 99, 184, 1);
+    width: 10px;
+    height: 10px;
+    
+
+}
+
+.testimonial-avatar1 {
+    width: 8.25vw;
+    height: 5.6vw;
+    float: left;
+    margin-right: 44px;
+}
+
+.review h3 {
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0.005em;
+    text-align: left;
+}
+
+.review a {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color:rgba(156, 105, 226, 1);
+
+}
+
+.review p {
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.review {
+    display: flex;
+}
+
+.left-arrow-image {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.testimonial-double-arrow {
+    position: absolute;
+    bottom: 3.88vw;
+    right: 4.75vw;
+
+}
+
+.unredline {
+    width: 100vw;
+    height: 2px;
+    background-color: rgba(156, 105, 226, 1);
+    margin: 150px 0 0 -15vw;
+
+}
+
+.try-for-fre-text h2 {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 100px 0 20px 0;
+    
+}
+
+.try-for-fre-text p {
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footer-btn-pink {
+    background-color: rgba(240, 99, 184, 1);
+    width: 170px;
+    height: 60px;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.footer-btn-white {
+    width: 210px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.1);
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+.footer-btns {
+    display: flex;
+    margin-top: 100px;
+}
+
+.try-for-free {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts h3 {
+    font-family: Avenir;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: -6.475vw;
+}
+
+.header-logo-footer {
+    display: flex;
+    align-items: flex-end;
+    margin: 153px 0 67px 0;
+}
+
+.contacts h4 {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contacts p {
+    font-family: Avenir;
+font-size: 16px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0.01em;
+text-align: left;
+
+}
+
+.contacts {
+    width: 20.1vw;
+    margin-right: 8.75vw;
+}
+
+.links h3 {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 163px 0 30px 0;
+    
+}
+
+.links h4 {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.links {
+margin-right: 9vw;
+}
+
+.social-media h3 {
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 163px 0 30px 0;
+}
+
+
+
+
+.contacts-and-links {
+    display: flex;
+}
+
+.social-media-logos img {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(33, 35, 83, 0.1);
+    border-radius: 50%;
+
+}
+
+.social-media-logos button {
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    box-sizing: content-box;
+}
+
+.social-media-logos {
+    display: flex;
+    justify-content: space-between;
+    width: 12vw;
+}
+
+.copyright-help p {
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 22.5vw;
+    margin-top: 118px;
+}
+
+.copyright-help button {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin-top: 118px;
+
+}
+
+.copyright-help img {
+    width: 60px;
+    height: 60px;
+}
+
+.copyright-help {
+    display: flex;
+    justify-content: space-between;
+
+}
